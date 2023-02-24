@@ -10,7 +10,7 @@ dut dut(
 );
 
 initial begin
-	$dumpfile("or.vcd");
+	$dumpfile("waves.vcd");
 	$dumpvars;
 end
 endmodule
